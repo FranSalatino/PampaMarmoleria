@@ -1,0 +1,433 @@
+                                                           /* inicio */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #919191;
+}
+.header{
+    background-color: black;
+    
+}
+
+.navBarColor{
+    background-color: lightseagreen;
+}
+
+
+body{
+    background-color: white;
+    color: black;
+    margin: 0;
+    position: relative;
+    display: grid;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.imagenHeader{
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    filter: invert(2);
+}
+.imagenModelo{
+ width: 1000px;
+ 
+ 
+}
+.imagenInicio{
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+}
+.informacion{
+    font-size: 20px;
+}
+
+.parrafo{
+    padding: 0%;
+
+}
+h1{
+   position:  center;
+}
+
+.headerNosotros img{
+    width: 80px;
+    height: 80px;
+}
+
+.headerNosotros{
+    padding: 0 10px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+.navbar__lista ul {
+    display: flex;
+    justify-content: right;
+    
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 10px;
+    list-style-type: none;  
+    height: auto; 
+}
+ 
+.navbar ul li a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.logoWpp{
+    position: absolute;
+    bottom: 1;
+    right: 0 ; 
+
+}
+.contenedor{
+  margin: 10px;
+  text-align: center;  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
+}
+.Marmoles-DISEÑO h1{
+    text-align: center;
+}
+
+
+.SubtituloGaleria{
+    text-align: center;
+}
+.footer-galeria{
+    position :relative;
+}
+
+.emailControl{
+    width: 500;
+}
+
+.contraseñaControl{
+    width: 500px;
+}
+                                          /* footeer */
+.piesito{
+    margin-top: auto;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    background-color:#212529;
+}
+
+.headerMarmol{
+    width: 100%;
+    background-color: black;
+    height: auto;
+}
+
+.TituloGaleria{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Send Flowers', cursive;
+}
+
+.SubtituloGaleria{
+ 
+  text-align: center;
+}
+
+.galeriaImg{
+    padding: 10px;
+}
+
+.InfoMarmol {
+   margin: 10px;
+   font-size: 25px;
+}
+
+.InfoMarmol p{
+    font-size: 25px;
+
+}
+
+.texto-porque-elegirnos{
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    Justify-content: center;
+
+}
+                                   /* FORMULARIO REGISTER(INDEX.HTML) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Form-register{
+    width: 400px;
+    background-color: #383838;
+    padding:30px;
+    border-radius: 4px;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37 000;
+
+     
+}
+
+.Form-registe h4 {
+    font-size: 22px;
+     margin-bottom: 20px;
+
+}
+
+.controls{
+    width: 100%;
+    background-color: white;
+    background:white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+.Form-register p{
+height: 40px;
+text-align: center;
+font-size: 18px;
+line-height: 40px;
+
+
+}
+
+.Form-register a:hover{
+    color: white;
+    text-decoration: underline;
+
+
+}
+.Form-register botons {
+    position:relative;
+    width: 100%;
+    background:#1f53c5 ;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+
+}
+                                                   /* seccion nosotros */
+.headerNosotros{
+    width: 100%;
+        background-color: black;
+        height: auto;
+
+}
+
+                              /* FOOTER NOSOTROS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+    
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items :center;
+    flex-direction: column; 
+}
+
+.logo{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.social-icons-container, footer-menu-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(../imagenes/telefono.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon :hover{
+    background-color: #12121212;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(../imagenes/facebook.png);
+
+}
+.social-icon:nth-of-type(3){
+    background-image: url(../imagenes/gmail.png);
+    
+}.social-icon:nth-of-type(4){
+    background-image: url(../imagenes/instagram.png);
+    
+}
+.foter-menu-container{
+    list-style-type: none;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+.menu-item{
+    margin: 1rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.menu-item-hover{
+    opacity: 1;
+}
+
+.copirigth{
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+}
+
+.piesito img {
+    width: 40px;
+    height: 40px; 
+    position: relative;
+}
+
+.secciones{
+    color: black;
+
+}
+.mapouter{
+    height: 50px;
+    width: 50px;
+}
+
+             /* seccione nosotros  */
+
+.Form-register{
+    margin: 20px;
+    
+}
+.Form-text{
+    border-bottom: 2px solid #383838
+}
+.titulos{
+    /* text-align: center; */
+    color: #000;
+}
+.subtitulos{
+    color: #000;
+    font-size: 30px;
+    padding: 10px;
+    border-bottom: 2px solid #000;
+}
+.lista__nosotros{
+    font-size: 26px;
+}
+.parrafo{
+    font-size: 25px;
+    padding: 20px;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+    margin: 15px;
+}
+    
+    
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+    }
+
+    .formulario__consulta{
+        margin: 20px;
+        padding: 10px;
+    }
+    .consulta1{
+        margin: 20px;
+    }
+
+.imagen__composicion{
+    width: 480px;
+    height: 324px;
+}
+
+.titulos__nosotros{
+    color: #000;
+    text-align: center;
+}
+.hamburguesa{
+    color: #ffff;
+}
+.caja {
+    background-color: #383838; 
+    width: 600px;
+    height: 700px;
+    margin: 30px;
+}
+.botoncito {
+    background-color: white;
+    box-shadow: #000 0 0 8px; }
+    .botoncito:hover {
+      background-color: rgb(59, 0, 253);
+      color: white;
+      box-shadow: #000 0px 7px 29px 0px; }
+    .botoncito:active {
+      background-color: #5d18dc;
+      color: white;
+      box-shadow: #5d18dc 0px 0px 0px 0px; }
