@@ -29,7 +29,7 @@ body{
     height: 60px;
     display: flex;
     justify-content: start;
-    filter: invert(2);
+    filter: invert(1);
 }
 .imagenModelo{
  width: 1000px;
@@ -125,7 +125,7 @@ h1{
 .contraseñaControl{
     width: 500px;
 }
-                                          /* footeer */
+
 .piesito{
     margin-top: auto;
     width: 100%;
@@ -175,7 +175,7 @@ h1{
     Justify-content: center;
 
 }
-                                   /* FORMULARIO REGISTER(INDEX.HTML) */
+            
 *{
     margin: 0;
     padding: 0;
@@ -240,7 +240,7 @@ line-height: 40px;
 
 
 }
-                                                   /* seccion nosotros */
+                    
 .headerNosotros{
     width: 100%;
         background-color: black;
@@ -248,7 +248,6 @@ line-height: 40px;
 
 }
 
-                              /* FOOTER NOSOTROS */
 *{
     margin: 0;
     padding: 0;
@@ -352,7 +351,6 @@ footer{
     width: 50px;
 }
 
-             /* seccione nosotros  */
 
 .Form-register{
     margin: 20px;
@@ -362,7 +360,6 @@ footer{
     border-bottom: 2px solid #383838
 }
 .titulos{
-    /* text-align: center; */
     color: #000;
 }
 .subtitulos{
