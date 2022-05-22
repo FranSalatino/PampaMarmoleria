@@ -24,12 +24,15 @@ body{
     min-height: 100vh;
     flex-direction: column;
 }
+.carouselExampleCaptions{
+    max-width: 100%
+}
 .imagenHeader{
     width: 70px;
     height: 60px;
     display: flex;
     justify-content: start;
-    filter: invert(1);
+    filter: invert();
 }
 .imagenModelo{
  width: 1000px;
