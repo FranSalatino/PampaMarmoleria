@@ -27,6 +27,7 @@ body{
 .carouselExampleCaptions{
     max-width: 100%
 }
+
 .imagenHeader{
     width: 70px;
     height: 60px;
@@ -431,3 +432,11 @@ footer{
       background-color: #5d18dc;
       color: white;
       box-shadow: #5d18dc 0px 0px 0px 0px; }
+
+.carousel{
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
