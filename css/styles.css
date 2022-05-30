@@ -127,7 +127,7 @@ h1{
 }
 
 .contraseñaControl{
-    width: 500px;
+    width: 100%;
 }
 
 .piesito{
@@ -353,6 +353,7 @@ footer{
 .mapouter{
     height: 50px;
     width: 50px;
+    
 }
 
 
@@ -383,7 +384,7 @@ footer{
     position: relative;
     text-align: right;
     height: 500px;
-    width: 600px;
+    width:100%;
     margin: 15px;
 }
     
@@ -391,8 +392,8 @@ footer{
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    height: 500px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
     }
 
     .formulario__consulta{
@@ -439,4 +440,8 @@ footer{
     padding-bottom: 20px;
     
 
+}
+
+@media screen and (max-width:768px){
+    
 }
