@@ -442,6 +442,21 @@ footer{
 
 }
 
-@media screen and (max-width:768px){
-    
+.footer bg-dark {
+ bottom: 0px;
+ width: 100%;
+ position: relative ;
+ bottom: 0px;
+}
+
+@media screen and(max-width:768px) {
+ footer{
+     position: absolute;
+     bottom: 0;
+ }
+}
+
+.contacto-conteiner{
+ max-width: 100%;
+ 
 }
